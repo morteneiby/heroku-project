@@ -1,9 +1,8 @@
 package dk.clbo.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Recipe {
@@ -20,6 +19,14 @@ public class Recipe {
     private String url;
     private String directions;
 
+    @OneToOne
+    private Notes notes;
+
+    @OneToMany(mappedBy = "recipe")
+    private Set<Ingredient> ingredients;
+
+    @ManyToMany(mappedBy = "recipes")
+    private Set<Category> categories;
 
 
 }
