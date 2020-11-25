@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dk</groupId>
-    <artifactId>Demo JPA Project</artifactId>
+    <artifactId>Demo_JPA_Project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Demo JPA Project</name>
     <description>Demo JPA Project</description>
