@@ -11,7 +11,7 @@
     <groupId>dk</groupId>
     <artifactId>clbo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>clbo</name>
+    <name>project-on-heroku</name>
     <description>Demo JPA Project</description>
 
     <properties>
