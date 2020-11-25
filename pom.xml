@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dk</groupId>
-    <artifactId>Demo_JPA_Project</artifactId>
+    <artifactId>clbo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Demo JPA Project</name>
+    <name>clbo</name>
     <description>Demo JPA Project</description>
 
     <properties>
