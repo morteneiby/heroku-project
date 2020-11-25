@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dk</groupId>
-    <artifactId>clbo</artifactId>
+    <artifactId>project-on-heroku</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>project-on-heroku</name>
     <description>Demo JPA Project</description>
